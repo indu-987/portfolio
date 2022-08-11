@@ -157,7 +157,7 @@ function Home() {
 
                     <div className='flex  items-center gap-5 '>
                         <img src='/assets/icon/linkedin.svg' className='h-[80px] w-[80px]'></img>
-                        <a href='https://twitter-six-delta.vercel.app/' target="blanck" rel="noreferrer">
+                        <a href='https://www.linkedin.com/in/indushree-m-patil-8b1915242/' target="blanck" rel="noreferrer">
                         <h2 className='text-2xl font-Damion'> linkedin.com/in/indushree-m-patil</h2>
                         </a>
                     </div>
