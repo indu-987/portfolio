@@ -3,9 +3,20 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+ 
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+    extend: { 
+      fontFamily:{
+        Satisfy:["Satisfy"],
+        Poppins:["Poppins"],
+        Great :["Great Vibes"],
+        dance:["Dancing Script"],
+        Dance:["Dancing Script"]
+
+
+      } 
+    }  
+    }
+  }
+ 

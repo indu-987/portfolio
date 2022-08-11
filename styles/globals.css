@@ -1,3 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg {
+    /* The image used */
+    background-image: url("https://img.freepik.com/premium-vector/abstract-pastel-watercolor-background_177363-4387.jpg?w=2000");
+
+    /* Full height */
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.sg {
+    /* The image used */
+    background-image: url("https://img.freepik.com/free-photo/pastel-pink-oil-paint-textured-background_53876-108408.jpg?w=740&t=st=1660115963~exp=1660116563~hmac=7bf8099fd5852b1634ba6be7b4b45b45f3e23008dfb0be0b0076e42f57fe8da8");
+
+    /* Full height */
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s1g {
+    /* The image used */
+    background-image: url("https://img.freepik.com/free-photo/pastel-pink-vignette-concrete-textured-background_53876-129734.jpg?size=626&ext=jpg&ga=GA1.2.1566329061.1660114984");
+
+    /* Full height */
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s2g {
+    /* The image used */
+    background-image: url("https://img.freepik.com/premium-vector/pink-alcohol-ink-background-abstract-fluid-art-painting-design_168102-48.jpg?size=626&ext=jpg&ga=GA1.2.1566329061.1660114984");
+    
+
+    /* Full height */
+    height: 100vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
