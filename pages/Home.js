@@ -19,18 +19,26 @@ function Home() {
     <div className='fixed flex w-full gap-4 justify-center bg-[#facfe7] items-center text-black'>
     <div className='h-12 w-full items-center flex' >
     <div className=' pl-20 max-w-3xl mx-auto  flex justify-center gap-5 text-2xl '>
-            <img src='/assets/image/women.svg' className='h-10 w-10  pr-3 '></img>
+            <button className='flex gap-5'>
             <Link href="/Home/#section1"><h1 className='cursor-pointer '>Home</h1></Link>
             <Link href="/Home/#section2"><h1 className='cursor-pointer  pr-3'>About Me</h1></Link>
             <Link href="/Home/#section3"><h1 className='cursor-pointer  pr-3'>Project</h1></Link>
             <Link href="/Home/#section4"><h1 className='cursor-pointer  pr-3'>Contact</h1></Link>
-            <div className='pl-8'>
-              <a href='https://github.com/indu-987' target="blanck" rel="noreferrer" >
-                <img src='/assets/image/github.svg' className='h-10 w-10 '></img>
-                </a>                
+            </button>
+                        
 
               
             </div>
+            <div className='pr-8'>
+              <a href='https://github.com/indu-987' target="blanck" rel="noreferrer" >
+                <img src='/assets/image/github.svg' className='h-10 w-10 '></img>
+                </a>    
+        
+            </div>
+            <div className='pr-8'>
+              <a href='https://www.linkedin.com/in/indushree-m-patil-8b1915242/' target="blanck" rel="noreferrer" >
+                <img src='/assets/icon/linkedin.svg' className='h-10 w-10 '></img>
+                </a>    
         
             </div>
     </div>
@@ -149,9 +157,8 @@ function Home() {
                 <div className='h-[300px] w-[600px] border-y-2 space-y-5 border-gray-400  '>
                     <div className='flex  items-center gap-5 pt-16'>
                         <img src='/assets/icon/gmail.svg' className='h-[80px] w-[80px]'></img>
-                        <a href='https://mail.google.com/' target="blanck" rel="noreferrer">
                         <h2 className='text-3xl font-Damion'>impatil987@gmail.com</h2>
-                        </a>
+                      
                        </div>
                    
 
